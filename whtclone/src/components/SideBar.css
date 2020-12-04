@@ -1,0 +1,44 @@
+.sidebar{
+
+    display: flex;
+    flex: 0.35;
+    flex-direction: column;
+    
+}
+
+.sideBar_header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-right: 1px solid rgb(230, 227, 227);
+    
+}
+.header_right{
+    padding-left: 1rem;
+   
+}
+
+.search{
+    display: grid;
+    place-items: center;
+    background: rgb(235, 229, 229);
+    height: 50px;
+}
+
+.search_centre{
+    display: flex;
+}
+
+.search_centerDeep{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 150px;
+
+}
+
+/* .side_chat{
+    display:grid;
+    place-items: center;
+} */
